@@ -29,7 +29,7 @@ const proxyPath = "px.txt"
 
 //const workingSitesAPI = ""
 
-const workingSitesAPI = "https://shopify-site-manager-production.up.railway.app/sites/working"
+const workingSitesAPI = "https://shopify-site-manager-production.up.railway.app/sites"
 const maxSiteAmount = 15.0
 
 // ──────────────────────── CheckResult ─────────────────────────────────
