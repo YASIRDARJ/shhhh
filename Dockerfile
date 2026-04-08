@@ -16,5 +16,9 @@ RUN apk add --no-cache ca-certificates tzdata
 WORKDIR /app
 
 COPY --from=builder /app/bot .
+COPY *.txt ./
+COPY users.json .
+COPY botconfig.json .
+COPY customsites.json .
 
 CMD ["./bot"]
